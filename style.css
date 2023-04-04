@@ -1,0 +1,88 @@
+ body {
+    color: goldenrod; background-color: rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ h1{ 
+    text-align: center; font-size: 7em;
+    text-shadow: 5px 5px 10px rgb(85, 85, 27);
+    font-family: Carter One;
+    color: goldenrod;
+   
+ }
+ 
+.block{ background-color: rgb(85, 85, 27); color: goldenrod; 
+    border: 2px; border-style: solid; border-color: gold; text-align: center; padding: 5px;
+}
+.projects{
+    
+    display: flex; 
+    flex-flow: column wrap; 
+   align-items: stretch;
+   
+   width: 90%;
+}
+header p {
+    text-align: center;
+}
+
+
+.Name{
+    display: block;
+    text-align: center;
+    align-self: center;
+    padding: auto;
+    margin: auto;
+}
+.Work{
+    display: block;
+    text-align: center;
+    align-self: center;
+    padding: auto;
+    margin: auto;
+}
+
+.Education{
+    display: block;
+    text-align: center;
+    align-self: center;
+    padding: auto;
+    margin: auto;
+}
+
+
+
+
+body section ul {
+    list-style-type: none;
+    
+}
+
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none; color: gray;
+}
+.btn{
+    background-color: rgb(85, 85, 27); padding: 7px; border-radius: 3px; text-decoration: none;
+    border: 1px; border-style: solid; border-color: rgb(85, 85, 27);
+}
+
+img {
+    max-width: 400px; float: right;
+}
+.list1{
+    background-color: goldenrod;
+  
+    border: 2px 2px; border-style: solid; border-color:rgb(85, 85, 27);
+    padding: auto;
+    margin: auto; margin-right: -5%;
+    width: 100%;
+   
+}
+
+
+
+/* more specific stuff */
+
